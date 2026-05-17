@@ -1,7 +1,26 @@
 # Mining Safety Analytics - ESG Portfolio
 
+## Executive Summary
+
+This portfolio analyzes 5,001 workforce safety incidents recorded across formal and artisanal mining operations in Sub-Saharan Africa between January 2020 and December 2024. The analysis addresses the Social (S) pillar of ESG through seven targeted business questions, revealing patterns in workforce vulnerability, contractor equity, fatal task exposure, and operational risk.
+
+**Three headline findings emerged:**
+
+1. **The 30-39 age group bears the highest absolute burden of fatalities.** Meanwhile, workers under 20 have the lowest experience levels. Experience saves lives: as average experience rises with age, total fatalities decline sharply.
+
+2. **Contractors die at higher rates.** Across every mine type, when a contractor is injured, the outcome is more likely to be fatal than for a direct operator. The widest gap is in Formal Large mines, where contractor fatality density reaches 79.4% versus 61.7% for operators.
+
+3. **The data has a blind spot.** The "Other" category dominates fatality counts across tasks, injury mechanisms, and mine types — a recurring signal that the incident classification system itself is masking root causes.
+
+**Additional insights** include a mid-shift danger zone (hours 4-8, not overtime), a 40% PPE non-compliance rate during life-altering injuries, and a clear divergence between Artisanal mines (where the ground kills) and Formal Large mines (where machines kill).
+
+All analysis was conducted in Microsoft Excel using Power Query for data transformation, pivot tables for aggregation, and interactive slicers for dynamic filtering. This project demonstrates the analytical rigor, domain awareness, and communication skills required for ESG Analyst and HSE Data Analyst roles.
+
+---
+
 ## Overview
-This project analyzes workforce safety incident data from Sub-Saharan African mining operations to answer real-world ESG (Social) questions. The analysis demonstrates core skills required for ESG Analyst, HSE Data Analyst, and Sustainability Analyst roles by translating complex business questions into technical analysis with actionable insights.
+
+This project analyzes 5,001 workforce safety incidents recorded across Sub-Saharan African mining operations over a five-year period (January 2020 – December 2024). The analysis addresses real-world ESG (Social) questions and demonstrates core skills required for ESG Analyst, HSE Data Analyst, and Sustainability Analyst roles by translating complex business questions into technical analysis with actionable insights.
 
 ---
 
@@ -28,14 +47,15 @@ This project analyzes workforce safety incident data from Sub-Saharan African mi
 ![Age & Experience Risk](/images/chart_1_age_experience.png)
 
 📊 **Key Findings:**
-- Workers under 20 with less than 2 years of experience face the highest fatality burden
-- Severe injuries decline steadily as age and experience increase
-- The inverse relationship between experience and fatal outcomes is visually clear
+- The 30-39 age group bears the highest absolute burden of fatalities
+- Workers under 20 have the lowest experience levels
+- As average years of experience rises with age, total fatalities decline sharply
+- Experience is a proven protective factor against fatal outcomes
 
 💡 **Business Insights:**
-- **Youth Safety Programs:** Target workers under 20 with enhanced supervision and task restrictions during their first two years
-- **Mentorship Structures:** Pair junior workers with experienced operators during high-risk tasks
-- **Portfolio-Level ESG Metric:** Track severe injury rate by age bracket as a workforce vulnerability indicator
+- **Mid-Career Focus:** Safety interventions shouldn't target only the youngest — the 30-39 bracket carries the highest absolute risk
+- **Youth Mentorship:** Pair workers under 20 with experienced operators during high-risk tasks to accelerate experience transfer
+- **Experience as a Metric:** Track average crew experience as a leading indicator of safety performance
 
 ---
 
@@ -170,7 +190,8 @@ The **"Other"** category dominates across multiple analyses — tasks, injury me
 ## Strategic Recommendations
 
 ### Workforce Protection
-- **Youth Safety Programs:** Target workers under 20 with enhanced supervision and task restrictions during their first two years
+- **Mid-Career Safety Focus:** The 30-39 age group carries the highest absolute fatality count — interventions should target this group
+- **Youth Mentorship:** Pair workers under 20 with experienced operators to accelerate experience transfer
 - **Contractor Standards:** Audit contractor safety training and PPE compliance, especially in Formal Large operations
 - **PPE Enforcement:** Address the 40% non-compliance rate for hand and head protection during high-risk tasks
 
@@ -197,7 +218,8 @@ The **"Other"** category dominates across multiple analyses — tasks, injury me
 | Visualization | Pivot Charts, Combo Charts, Treemap, Slicers |
 | Key Metrics | Fatality Density (%), Days Away Density (%) |
 | Data Source | `safety_incidents.csv` — mining incident records from Sub-Saharan Africa |
-| Records Analyzed | 1,300+ incidents |
+| Time Period | January 2020 – December 2024 (5 years) |
+| Records Analyzed | 5,001 incidents |
 
 ---
 
@@ -225,5 +247,6 @@ This project is **not** intended for:
 
 ---
 
-*Built with Microsoft Excel and Power Query. All findings are based on provided incident data and should not be interpreted as operational safety recommendations without independent validation.*
+*Built with Microsoft Excel and Power Query. All findings are based on provided incident data and should not be interpreted as operational safety recommendations without independent validation. Data spans 5,001 incidents recorded between January 2020 and December 2024 across Sub-Saharan African mining operations.*
+```
 
